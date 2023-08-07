@@ -30,21 +30,6 @@ section{
   min-height: 400px;
   padding: 100px 20vw;
 }
-.blue{
-  background: blue;
-}
-.red{
-  background: red;
-}
-.pink{
-  background: #DB7093;
-}
-.grey{
-  background: grey;
-}
-.purple{
-  background: #b30fc1
-}
 .curve{
   position: absolute;
   height: 225px;
@@ -212,4 +197,66 @@ p {
   #navbar-right {
     float: none;
   }
+}
+/* styles.css */
+.collapsible {
+  background-color: #f1f1f1;
+  color: #333;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  text-align: left;
+  width: 100%;
+}
+
+.content {
+  display: none;
+  padding: 10px;
+}
+/* styles.css */
+.python {
+    width: 33.33%;
+    background-color: #ddd;
+    height: 30px;
+    border-radius: 0px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.c {
+    width: 33.33%;
+    background-color: #ddd;
+    height: 30px;
+    border-radius: 0px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.cp {
+    width: 33.33%;
+    background-color: #ddd;
+    height: 30px;
+    border-radius: 0px;
+    margin: 10px 0;
+}
+.python-bar {
+    height: 100%;
+    background-color: #74B72E;
+    width: 70%;
+    transition: width 0.5s ease-in-out;
+    position: relative; /* Needed for positioning the text */
+}
+.c-bar {
+    height: 100%;
+    background-color: #0067A5;
+    width: 70%;
+    transition: width 0.5s ease-in-out;
+    position: relative; /* Needed for positioning the text */
+}
+.cp-bar {
+    align: center;
+    height: 100%;
+    background-color: #6495ED;
+    width: 70%;
+    transition: width 0.5s ease-in-out;
+    position: relative; /* Needed for positioning the text */
+    
 }
